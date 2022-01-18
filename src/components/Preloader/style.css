@@ -1,0 +1,46 @@
+.Preloader{
+  background-color: #26263B;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+  transition: all 0. ease-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 400;
+  transition: width 1s 1s, height 1s 1s, opacity .5s;
+}
+
+.Preloader img{
+  max-width: 16vw;
+  margin: 2rem 0;
+}
+
+.fadeOut{
+  opacity:0;
+  width:0;
+  height:0;
+  
+
+}
+
+.Preloader p{
+  color: white;
+  font-family: "Inter";
+  font-weight: 200;
+}
+
+.linha{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.linha img{
+  max-width: 15vw;
+  margin:0 2rem ;
+}

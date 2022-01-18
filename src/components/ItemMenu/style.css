@@ -1,0 +1,45 @@
+.ItemMenu{
+  background-color: white;
+  height:auto;
+  width:90%;
+  border-radius:5px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: .45rem 0;
+  cursor: pointer;
+  align-items: center;
+}
+
+.ItemMenu .info{
+  width:80%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: .5rem 0;
+}
+
+.ItemMenu .info p{
+ padding: 0;
+ margin: 0.25rem;
+}
+
+.ItemMenu .info p.nome{
+  font-weight: bold;
+}
+
+.ItemMenu .info p.endereco{
+  color: rgb(77, 77, 77);
+}
+
+.ItemMenu img{
+  width: 20px;
+  height:20px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 700px){
+  .ItemMenu .info p{
+    font-size:12px;
+  }
+}
